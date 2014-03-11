@@ -1,0 +1,13 @@
+﻿<Window x:Class="SingleInstanceExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Session Events" Height="350" Width="525">
+    <Grid>
+        <Grid.Background>#EAEAEA</Grid.Background>
+
+        <ListBox Name="LbxLog" Margin="10,10,10,25" >
+            <ListBox.Background>#F8F8F8</ListBox.Background>
+            <ListBox.Foreground>#0048AC</ListBox.Foreground>
+        </ListBox>
+    </Grid>
+</Window>

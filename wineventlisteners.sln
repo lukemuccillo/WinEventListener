@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleInstanceExample", "SingleInstanceExample\SingleInstanceExample.csproj", "{A67DEECF-9D06-49A1-BAE7-A2BA262B9A3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedComponents", "SharedComponents\SharedComponents.csproj", "{DCAB3E03-E02C-4096-B445-158642830373}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A67DEECF-9D06-49A1-BAE7-A2BA262B9A3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67DEECF-9D06-49A1-BAE7-A2BA262B9A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67DEECF-9D06-49A1-BAE7-A2BA262B9A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67DEECF-9D06-49A1-BAE7-A2BA262B9A3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCAB3E03-E02C-4096-B445-158642830373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCAB3E03-E02C-4096-B445-158642830373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCAB3E03-E02C-4096-B445-158642830373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCAB3E03-E02C-4096-B445-158642830373}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
